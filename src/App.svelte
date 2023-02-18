@@ -68,6 +68,6 @@
     </div>
   </section>
   <footer>
-    Made by <a href="https://github.com/KanarekLife/">Stanisław Nieradko</a>.
+    Made by <a href="https://github.com/KanarekLife/">Stanisław Nieradko</a>. <a href="https://github.com/KanarekLife/peim.nieradko.com/">Source Code</a>
   </footer>
 </main>
