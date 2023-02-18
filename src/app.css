@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+html,
+body,
+#app {
+	height: 100%;
+	margin: 0;
+	background-color: #121212;
+	color: whitesmoke;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+main {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper {
+	flex: 1;
+}
+
+.nav {
+	width: 100%;
+}
+
+.nav-list {
+	display: flex;
+	gap: 2rem;
+	list-style: none;
+	padding-inline-start: 0;
+	justify-content: center;
+	width: 100%;
+}
+
+.nav-item {
+	font-size: large;
+}
+
+.nav-item>a:not(hover) {
+	color: rgb(0, 174, 255);
+}
+
+.nav-item>a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+main {
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	margin: 1rem;
+}
+
+footer>a {
+	color: rgb(0, 174, 255);
+}
+
+.player {
+	text-align: center;
+}
